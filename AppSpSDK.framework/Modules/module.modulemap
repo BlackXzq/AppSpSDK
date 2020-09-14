@@ -1,0 +1,11 @@
+framework module AppSpSDK {
+  umbrella header "AppSpSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AppSpSDK.Swift {
+    header "AppSpSDK-Swift.h"
+    requires objc
+}
