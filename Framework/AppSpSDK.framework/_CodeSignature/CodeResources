@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AppSpSDK-Swift.h</key>
 		<data>
-		+5qdgY1WwQoPoi7NiOZtKKrbZjM=
+		QhbRcelDBgstWUmW5PtxTFBP2eg=
 		</data>
 		<key>Headers/AppSpSDK.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		uSsfiik2/l3d5S8k4DA4EIUBmBQ=
+		eC59NFTKA3SYMDtfMxKG+E2m5Qg=
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GF9n9UHMqbwBNZjpU40Fa1Vs7OM=
+		bB29dUlj1nUIiYC5ggygiI7KMs8=
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GF9n9UHMqbwBNZjpU40Fa1Vs7OM=
+		bB29dUlj1nUIiYC5ggygiI7KMs8=
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		uSsfiik2/l3d5S8k4DA4EIUBmBQ=
+		eC59NFTKA3SYMDtfMxKG+E2m5Qg=
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		uSsfiik2/l3d5S8k4DA4EIUBmBQ=
+		eC59NFTKA3SYMDtfMxKG+E2m5Qg=
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7s-apple-ios.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7s-apple-ios.swiftmodule</key>
 		<data>
-		/k3AXLcgSzOfIESFV4pNXG+1/zs=
+		OGv5DKuFlAlbSmoFxk9UrzIqBtM=
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7s.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/armv7s.swiftmodule</key>
 		<data>
-		/k3AXLcgSzOfIESFV4pNXG+1/zs=
+		OGv5DKuFlAlbSmoFxk9UrzIqBtM=
 		</data>
 		<key>Modules/AppSpSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -123,11 +123,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+5qdgY1WwQoPoi7NiOZtKKrbZjM=
+			QhbRcelDBgstWUmW5PtxTFBP2eg=
 			</data>
 			<key>hash2</key>
 			<data>
-			2f1caEPoKpP9CZF9JrPMIJdN8CD9qlAWEbpwCHccb+Y=
+			orf1DLEvrMEJbxXp2pra4j7mypMKfT7ZL2UqY3xY/Os=
 			</data>
 		</dict>
 		<key>Headers/AppSpSDK.h</key>
@@ -167,11 +167,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uSsfiik2/l3d5S8k4DA4EIUBmBQ=
+			eC59NFTKA3SYMDtfMxKG+E2m5Qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			cKEJP9vUtzgrO07Vdm+1S8am3TRiPqIIgC/cY2IkNNM=
+			Kv8AoRb5BkB4/j7zulZTNbWJcV6kXF3CwSa8UX8pcFA=
 			</data>
 		</dict>
 		<key>Modules/AppSpSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -189,11 +189,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GF9n9UHMqbwBNZjpU40Fa1Vs7OM=
+			bB29dUlj1nUIiYC5ggygiI7KMs8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VcRQpgJl3F6I+CTeu0IBQkfyg79HbrEipmR1aXsM6Io=
+			knC5G6dveLgwe8oLZDTnVpmBQRtVY53EIeGZfhjVZvA=
 			</data>
 		</dict>
 		<key>Modules/AppSpSDK.swiftmodule/arm64.swiftdoc</key>
@@ -211,11 +211,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GF9n9UHMqbwBNZjpU40Fa1Vs7OM=
+			bB29dUlj1nUIiYC5ggygiI7KMs8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VcRQpgJl3F6I+CTeu0IBQkfyg79HbrEipmR1aXsM6Io=
+			knC5G6dveLgwe8oLZDTnVpmBQRtVY53EIeGZfhjVZvA=
 			</data>
 		</dict>
 		<key>Modules/AppSpSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -233,11 +233,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uSsfiik2/l3d5S8k4DA4EIUBmBQ=
+			eC59NFTKA3SYMDtfMxKG+E2m5Qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			cKEJP9vUtzgrO07Vdm+1S8am3TRiPqIIgC/cY2IkNNM=
+			Kv8AoRb5BkB4/j7zulZTNbWJcV6kXF3CwSa8UX8pcFA=
 			</data>
 		</dict>
 		<key>Modules/AppSpSDK.swiftmodule/armv7.swiftdoc</key>
@@ -255,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uSsfiik2/l3d5S8k4DA4EIUBmBQ=
+			eC59NFTKA3SYMDtfMxKG+E2m5Qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			cKEJP9vUtzgrO07Vdm+1S8am3TRiPqIIgC/cY2IkNNM=
+			Kv8AoRb5BkB4/j7zulZTNbWJcV6kXF3CwSa8UX8pcFA=
 			</data>
 		</dict>
 		<key>Modules/AppSpSDK.swiftmodule/armv7s-apple-ios.swiftdoc</key>
@@ -277,11 +277,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/k3AXLcgSzOfIESFV4pNXG+1/zs=
+			OGv5DKuFlAlbSmoFxk9UrzIqBtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			XyKwDtM3dATZXUH88FCawwICacgfSqpQ61WTfI7cn0M=
+			2JwsINpUHpof8KJdvWYGygq2iZUKvxSgqPgW/EwOHbs=
 			</data>
 		</dict>
 		<key>Modules/AppSpSDK.swiftmodule/armv7s.swiftdoc</key>
@@ -299,11 +299,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/k3AXLcgSzOfIESFV4pNXG+1/zs=
+			OGv5DKuFlAlbSmoFxk9UrzIqBtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			XyKwDtM3dATZXUH88FCawwICacgfSqpQ61WTfI7cn0M=
+			2JwsINpUHpof8KJdvWYGygq2iZUKvxSgqPgW/EwOHbs=
 			</data>
 		</dict>
 		<key>Modules/AppSpSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
