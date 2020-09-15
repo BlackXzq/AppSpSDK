@@ -19,8 +19,23 @@
 		C1811DBD250A468D007E6037 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBC250A468D007E6037 /* VersionController.swift */; };
 		C1811DBF250A4CF6007E6037 /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBE250A4CF6007E6037 /* NoticeController.swift */; };
 		C1811DC1250AF83D007E6037 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DC0250AF83D007E6037 /* Utils.swift */; };
-		C1811E1A250F8B18007E6037 /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E19250F8B18007E6037 /* AppSpSDK.framework */; };
+		C1811E1C251048A7007E6037 /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E19250F8B18007E6037 /* AppSpSDK.framework */; };
+		C1811E1D251048A7007E6037 /* AppSpSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E19250F8B18007E6037 /* AppSpSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1811E1E251048A7007E6037 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C1811E1D251048A7007E6037 /* AppSpSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C1313E3E25075015007521BC /* AppSpSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSpSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1811E1A250F8B18007E6037 /* AppSpSDK.framework in Frameworks */,
+				C1811E1C251048A7007E6037 /* AppSpSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +70,7 @@
 		C1313E3525075015007521BC = {
 			isa = PBXGroup;
 			children = (
-				C1811E19250F8B18007E6037 /* AppSpSDK.framework */,
+				C1811E1B2510485F007E6037 /* Framework */,
 				C1313E4025075015007521BC /* AppSpSDKDemo */,
 				C1313E3F25075015007521BC /* Products */,
 			);
@@ -97,6 +112,14 @@
 			path = ASPUI;
 			sourceTree = "<group>";
 		};
+		C1811E1B2510485F007E6037 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C1811E19250F8B18007E6037 /* AppSpSDK.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,6 +130,7 @@
 				C1313E3A25075015007521BC /* Sources */,
 				C1313E3B25075015007521BC /* Frameworks */,
 				C1313E3C25075015007521BC /* Resources */,
+				C1811E1E251048A7007E6037 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,6 +349,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
 				);
 				INFOPLIST_FILE = AppSpSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -349,6 +374,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
 				);
 				INFOPLIST_FILE = AppSpSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
