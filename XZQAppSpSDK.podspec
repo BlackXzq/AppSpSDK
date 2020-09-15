@@ -9,7 +9,5 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/BlackXzq/AppSpSDK.git', :tag => s.version}
     s.requires_arc = true
     s.swift_version = '4.0'
-
-    s.vendored_frameworks = 'Framework/AppSpSDK.framework'
-    s.source_files = 'Framework/AppSpSDK.framework/Headers/*'
+    s.resource = 'Framework/AppSpSDK.framework'
 end
