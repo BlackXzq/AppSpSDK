@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,7 +19,7 @@
 		C1811DBD250A468D007E6037 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBC250A468D007E6037 /* VersionController.swift */; };
 		C1811DBF250A4CF6007E6037 /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBE250A4CF6007E6037 /* NoticeController.swift */; };
 		C1811DC1250AF83D007E6037 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DC0250AF83D007E6037 /* Utils.swift */; };
-		C1811E28251096EF007E6037 /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E27251096EE007E6037 /* AppSpSDK.framework */; };
+		C1811E2A2510D99E007E6037 /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E292510D99E007E6037 /* AppSpSDK.framework */; };
 		F0E179E9C74C664E83401670 /* Pods_AppSpSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13AA45F6A76585B853656FD /* Pods_AppSpSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		C1811DBC250A468D007E6037 /* VersionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionController.swift; sourceTree = "<group>"; };
 		C1811DBE250A4CF6007E6037 /* NoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeController.swift; sourceTree = "<group>"; };
 		C1811DC0250AF83D007E6037 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		C1811E27251096EE007E6037 /* AppSpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppSpSDK.framework; sourceTree = "<group>"; };
+		C1811E292510D99E007E6037 /* AppSpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppSpSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1811E28251096EF007E6037 /* AppSpSDK.framework in Frameworks */,
+				C1811E2A2510D99E007E6037 /* AppSpSDK.framework in Frameworks */,
 				F0E179E9C74C664E83401670 /* Pods_AppSpSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +76,6 @@
 				75A649CB378B0D231037666A /* Pods-AppSpSDKDemo.debug.xcconfig */,
 				226FD3F59B0C887626CC4958 /* Pods-AppSpSDKDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,7 +137,7 @@
 		C1811E1B2510485F007E6037 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				C1811E27251096EE007E6037 /* AppSpSDK.framework */,
+				C1811E292510D99E007E6037 /* AppSpSDK.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
