@@ -19,8 +19,8 @@
 		C1811DBD250A468D007E6037 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBC250A468D007E6037 /* VersionController.swift */; };
 		C1811DBF250A4CF6007E6037 /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBE250A4CF6007E6037 /* NoticeController.swift */; };
 		C1811DC1250AF83D007E6037 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DC0250AF83D007E6037 /* Utils.swift */; };
-		C1811E1C251048A7007E6037 /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E19250F8B18007E6037 /* AppSpSDK.framework */; };
-		C1811E1D251048A7007E6037 /* AppSpSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E19250F8B18007E6037 /* AppSpSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C1811E25251091CB007E6037 /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E23251091C5007E6037 /* AppSpSDK.framework */; };
+		C1811E26251091CB007E6037 /* AppSpSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E23251091C5007E6037 /* AppSpSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C1811E1D251048A7007E6037 /* AppSpSDK.framework in Embed Frameworks */,
+				C1811E26251091CB007E6037 /* AppSpSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,7 @@
 		C1811DBC250A468D007E6037 /* VersionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionController.swift; sourceTree = "<group>"; };
 		C1811DBE250A4CF6007E6037 /* NoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeController.swift; sourceTree = "<group>"; };
 		C1811DC0250AF83D007E6037 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		C1811E19250F8B18007E6037 /* AppSpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppSpSDK.framework; sourceTree = "<group>"; };
+		C1811E23251091C5007E6037 /* AppSpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppSpSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1811E1C251048A7007E6037 /* AppSpSDK.framework in Frameworks */,
+				C1811E25251091CB007E6037 /* AppSpSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 		C1811E1B2510485F007E6037 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				C1811E19250F8B18007E6037 /* AppSpSDK.framework */,
+				C1811E23251091C5007E6037 /* AppSpSDK.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";

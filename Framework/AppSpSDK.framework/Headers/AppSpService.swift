@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 // test appKey: 64cf5a851f37c6c0ab7a3186a2377d5d
 
 public class AppSpService: NSObject {

@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
     s.swift_version = '4.0'
 
     s.vendored_frameworks = 'Framework/AppSpSDK.framework'
+    s.source_files = 'Framework/AppSpSDK.framework/Headers/*'
 end
