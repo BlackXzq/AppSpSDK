@@ -19,7 +19,7 @@
 		C1811DBD250A468D007E6037 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBC250A468D007E6037 /* VersionController.swift */; };
 		C1811DBF250A4CF6007E6037 /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBE250A4CF6007E6037 /* NoticeController.swift */; };
 		C1811DC1250AF83D007E6037 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DC0250AF83D007E6037 /* Utils.swift */; };
-		C1811E2A2510D99E007E6037 /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1811E292510D99E007E6037 /* AppSpSDK.framework */; };
+		C191D8EB25123C39008EB56C /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C191D8EA25123C39008EB56C /* AppSpSDK.framework */; };
 		F0E179E9C74C664E83401670 /* Pods_AppSpSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13AA45F6A76585B853656FD /* Pods_AppSpSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		C1811DBC250A468D007E6037 /* VersionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionController.swift; sourceTree = "<group>"; };
 		C1811DBE250A4CF6007E6037 /* NoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeController.swift; sourceTree = "<group>"; };
 		C1811DC0250AF83D007E6037 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		C1811E292510D99E007E6037 /* AppSpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppSpSDK.framework; sourceTree = "<group>"; };
+		C191D8EA25123C39008EB56C /* AppSpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppSpSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1811E2A2510D99E007E6037 /* AppSpSDK.framework in Frameworks */,
+				C191D8EB25123C39008EB56C /* AppSpSDK.framework in Frameworks */,
 				F0E179E9C74C664E83401670 /* Pods_AppSpSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,7 +90,7 @@
 		C1313E3525075015007521BC = {
 			isa = PBXGroup;
 			children = (
-				C1811E1B2510485F007E6037 /* Framework */,
+				C191D8EA25123C39008EB56C /* AppSpSDK.framework */,
 				C1313E4025075015007521BC /* AppSpSDKDemo */,
 				C1313E3F25075015007521BC /* Products */,
 				4B191766BCF9ED59193B6E85 /* Pods */,
@@ -132,14 +132,6 @@
 				C1811DBA250A2893007E6037 /* AppSpNoticeAlert.swift */,
 			);
 			path = ASPUI;
-			sourceTree = "<group>";
-		};
-		C1811E1B2510485F007E6037 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				C1811E292510D99E007E6037 /* AppSpSDK.framework */,
-			);
-			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

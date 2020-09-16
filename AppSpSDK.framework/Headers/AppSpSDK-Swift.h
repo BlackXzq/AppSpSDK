@@ -205,6 +205,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC8AppSpSDK12AppSpService")
 @interface AppSpService : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppSpService * _Nonnull shareService;)
++ (AppSpService * _Nonnull)shareService SWIFT_WARN_UNUSED_RESULT;
+- (void)setAppkeyWithAppKey:(NSString * _Nonnull)appKey;
+- (void)checkVersionUpdateWithSuccess:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))success failure:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))failure;
+- (void)getNoticeInfoWithSuccess:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))success failure:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))failure;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -421,6 +426,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC8AppSpSDK12AppSpService")
 @interface AppSpService : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppSpService * _Nonnull shareService;)
++ (AppSpService * _Nonnull)shareService SWIFT_WARN_UNUSED_RESULT;
+- (void)setAppkeyWithAppKey:(NSString * _Nonnull)appKey;
+- (void)checkVersionUpdateWithSuccess:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))success failure:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))failure;
+- (void)getNoticeInfoWithSuccess:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))success failure:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))failure;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -637,6 +647,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC8AppSpSDK12AppSpService")
 @interface AppSpService : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppSpService * _Nonnull shareService;)
++ (AppSpService * _Nonnull)shareService SWIFT_WARN_UNUSED_RESULT;
+- (void)setAppkeyWithAppKey:(NSString * _Nonnull)appKey;
+- (void)checkVersionUpdateWithSuccess:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))success failure:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))failure;
+- (void)getNoticeInfoWithSuccess:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))success failure:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))failure;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
