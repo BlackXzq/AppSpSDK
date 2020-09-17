@@ -19,7 +19,8 @@
 		C1811DBD250A468D007E6037 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBC250A468D007E6037 /* VersionController.swift */; };
 		C1811DBF250A4CF6007E6037 /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DBE250A4CF6007E6037 /* NoticeController.swift */; };
 		C1811DC1250AF83D007E6037 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1811DC0250AF83D007E6037 /* Utils.swift */; };
-		C191D8EE25123FFF008EB56C /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C191D8ED25123FFF008EB56C /* AppSpSDK.framework */; };
+		C191D8EF2512E23E008EB56C /* AppSpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C191D8ED25123FFF008EB56C /* AppSpSDK.framework */; };
+		C191D8F02512E23E008EB56C /* AppSpSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C191D8ED25123FFF008EB56C /* AppSpSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F0E179E9C74C664E83401670 /* Pods_AppSpSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13AA45F6A76585B853656FD /* Pods_AppSpSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C191D8F02512E23E008EB56C /* AppSpSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C191D8EE25123FFF008EB56C /* AppSpSDK.framework in Frameworks */,
+				C191D8EF2512E23E008EB56C /* AppSpSDK.framework in Frameworks */,
 				F0E179E9C74C664E83401670 /* Pods_AppSpSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
